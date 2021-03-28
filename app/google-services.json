@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "306207135436",
+    "firebase_url": "https://sportdiary-1660a-default-rtdb.firebaseio.com",
+    "project_id": "sportdiary-1660a",
+    "storage_bucket": "sportdiary-1660a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306207135436:android:52d3fddfe3657606bed469",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306207135436-b9c353b5enrpv3gusbnrvcjpopks50li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFsWGlihEhEGfxeSS1Q2G8m5m1MSAXzng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306207135436-b9c353b5enrpv3gusbnrvcjpopks50li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306207135436:android:cb75843df6857912bed469",
+        "android_client_info": {
+          "package_name": "com.example.sportsdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306207135436-b9c353b5enrpv3gusbnrvcjpopks50li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFsWGlihEhEGfxeSS1Q2G8m5m1MSAXzng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306207135436-b9c353b5enrpv3gusbnrvcjpopks50li.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
