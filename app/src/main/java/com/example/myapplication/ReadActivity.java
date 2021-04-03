@@ -35,7 +35,7 @@ public class ReadActivity extends AppCompatActivity {
         setContentView(R.layout.read_layout);
         init();
         getDataFromDB();
-        //setOnClickItem();
+        setOnClickItem();
     }
     private void init(){
         listView = findViewById(R.id.listview);
@@ -62,9 +62,9 @@ public class ReadActivity extends AppCompatActivity {
                     assert  exercise !=null;
                     listData.add(exercise.description);
                     listTemp.add(exercise);
-                    //Exercises exercises = ds.getValue(Exercises.class);
-                    //assert  exercises !=null;
-                    //listData.add(exercises.description);
+                    /*Exercises exercises = ds.getValue(Exercises.class);
+                    assert  exercises !=null;
+                    listData.add(exercises.description);*/
                 }
                 adapter.notifyDataSetChanged();
             }
@@ -76,7 +76,7 @@ public class ReadActivity extends AppCompatActivity {
         };
         mDataBase.addValueEventListener(vListener);
     }
-    /*
+
     private void setOnClickItem(){
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener()
         {
@@ -90,5 +90,5 @@ public class ReadActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-    }*/
+    }
 }

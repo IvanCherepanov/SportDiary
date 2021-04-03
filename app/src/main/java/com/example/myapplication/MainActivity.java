@@ -15,7 +15,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class MainActivity extends AppCompatActivity {
     private EditText edName,edType,edDescriprion;
     private DatabaseReference mDataBase;
-    private String EXERCISES_KEY = "Exercises";// группа определенная передается
+    private String EXERCISES_KEY = "Exercise";// группа определенная передается
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
